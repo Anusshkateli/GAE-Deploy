@@ -2,7 +2,7 @@
 
 This repository contains a simple Weather App designed to be deployed on Google App Engine (GAE) using Node.js and Express. The application fetches weather information for a specified city and displays it to the user.
 
-### [cite\_start]Project Structure [cite: 7]
+###Project Structure 
 
 The project follows a clear and organized structure:
 
@@ -19,7 +19,7 @@ gcp-express-app/
 
 ### Files and Their Purpose
 
-  * [cite\_start]**`app.js`**: This is the main Node.js application file[cite: 8]. It sets up an Express server to:
+  ***`app.js`**: This is the main Node.js application file. It sets up an Express server to:
 
       * [cite\_start]Serve static files (HTML, CSS, JavaScript) from the `public` directory[cite: 8].
       * [cite\_start]Handle the root route (`/`) by sending the `index.html` file[cite: 8].
